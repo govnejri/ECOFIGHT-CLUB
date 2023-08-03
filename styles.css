@@ -1,0 +1,67 @@
+/* Общие стили для всего приложения */
+* {
+    font-family: "Golos UI", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fffbd6; /* Зеленый цвет для текста */
+}
+
+/* Основной фон для всех виджетов и MainWindow */
+QWidget, QMainWindow, QTabWidget {
+    background-color: #fffbd6; /* Светло-зеленый фон для виджетов и главного окна */
+}
+
+
+QTabBar::tab {
+    border: 2px solid #5cc036;   /* GREEN TONE */ 
+    background:#ABCDAC; 
+    color: black; 	
+}
+
+
+/* Цвет фона для всех label */
+QLabel {
+    background-color: #cfe8cf; /* Светло-зеленый фон для label */
+    color: black;
+}
+
+/* Стили для всех кнопок */
+QPushButton{ 
+    background-color: #16A085;
+    color: white;
+    border-radius: 15px; 
+
+ }
+ QPushButton:hover { 
+     background-color:#2ECC71 ; 
+
+ }  
+
+ QPushButton::pressed {      /* when the button is pressed*/       
+      background-color:#27AE60 ;    
+
+ }
+
+/* Стили для всех вкладок TabWidget, tabWidget_2 и tabWidget_3 */
+QTabWidget {
+    background-color: #e0f2e0; /* Светло-зеленый фон для вкладок */
+}
+
+/* Стили для текста на вкладках */
+QTabWidget::tab {
+    font-weight: bold;
+    color: #004d00; /* Зеленый цвет для текста на вкладках */
+}
+
+/* Стили для всех текстовых полей */
+QTextEdit {
+    background-color: #cfe8cf; /* Светло-зеленый фон для текстовых полей */
+    border-radius: 5px;
+    padding: 5px;
+    color:black;
+}
+
+/* Стили для графических виджетов */
+QGraphicsView {
+    background-color: #e0f2e0; /* Светло-зеленый фон для графических виджетов */
+}
